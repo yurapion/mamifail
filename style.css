@@ -42,11 +42,19 @@ button {
   font-size: 1.8rem;
   cursor: pointer;
   transition: background 1s ease-in-out;
+  display: inline-block;
 }
 #First_button {
   background-color: #6b2121e7;
-  padding: 5rem 7rem;
+  padding: 3rem 5rem;
   font-size: 2.3rem;
+  border: 2px solid #330707;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+}
+#First_button:hover {
+  background-color: #330707;
+  color: transparent;
 }
 button:hover {
   background: #313c4b;
@@ -148,6 +156,24 @@ nav ul {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   */
+}
+#videos {
+  min-height: 50vh;
+  background-color: #131c27;
+  margin: 10rem, 0rem;
+}
+#videos h2 {
+  color: white;
+  text-align: center;
+  margin: 1rem;
+  padding: 2rem;
+}
+.video-block {
+  min-height: 60vh;
+  margin: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .cloud {
   position: absolute;
@@ -298,6 +324,7 @@ footer ul {
 }
 footer h5 {
   flex: 1 1 40rem;
+  color: rgb(27, 25, 25);
 }
 
 /*MEDIA QUERY*/
