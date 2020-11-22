@@ -169,8 +169,16 @@ nav ul {
   padding: 2rem;
 }
 .video-block {
-  min-height: 60vh;
-  margin: 5rem;
+  min-height: 40vh;
+  margin: 3rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.video-block2 {
+  margin: 3rem;
+  padding: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
